@@ -35,7 +35,7 @@
     width: 100vw;
 }
 
-.title,.txt {
+.title,.txt,.title-second,.txt-second {
     color: #07043B;
     width: 75%;
     text-align: center;
@@ -43,12 +43,12 @@
     left: 2em;
 }
 
-.title {
+.title,.title-second {
     font-size: 24px;
     line-height: 36px;
 }
 
-.txt {
+.txt,.txt-second {
     font-size: 14px;
     line-height: 21px;
     left: 3em;
@@ -82,4 +82,142 @@ form button {
 form input {
     border: 1px solid #07043B;
     padding-left: 1em;
+}
+
+.see-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #3DA08F;
+    width: 35%;
+    border-spacing: 9em;
+    position: relative;
+    left: 7.5em;
+    top: 2em;
+}
+
+.btn-fylo {
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+}
+
+.quote {
+    position: relative;
+    top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.quote-img {
+    position: relative;
+    right: 45vw;
+}
+
+.quote-txt {
+    width: 90%;
+    line-height: 18.1px;
+    letter-spacing: 0.38px;
+    color: #07043B;
+}
+
+.info {
+    position: relative;
+    top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.job-title {
+    position: relative;
+    bottom: 1.5em;
+    left: 0.75em;
+}
+
+.name,.job-title {
+    color: #07043B;
+}
+
+.testimonial {
+    border-radius: 50%;
+    width: 25%;
+    position: relative;
+    top: 1em;
+}
+
+.quoted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.early {
+    position: relative;
+    top: 10em;
+    background-color: #575988;
+    color: #fff;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.early-title {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.early-txt {
+    font-size: 16px;
+    line-height: 21px;
+    width: 75%;
+    position: relative;
+    left: 3em;
+    margin-bottom: 1.5em;
+}
+
+#email-signup,#sign-start {
+    width: 65%;
+}
+
+#sign-start {
+    width: 70%;
+}
+
+.footer {
+    padding-top: 2em;
+    background-color: #07043B;
+    color: #fff;
+    width: 100vw;
+    position: relative;
+    top: 13vh;
+}
+
+#footer-img {
+    position: relative;
+    left: 2em;
+    margin-bottom: 3em;
+}
+
+.contact,.footer-links-upper,.footer-links-lower  {
+    list-style-type: none;
+}
+
+.phone {
+    margin-bottom: 1.5em;
+}
+
+.email {
+    margin-bottom: 3em;
+}
+
+.blog {
+    padding-bottom: 5em;
+}
+
+.footer-links-upper li, .footer-links-lower li {
+    margin-bottom: 2em;
 }
