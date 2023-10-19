@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository URL](https://github.com/DarkPhoenixNinja92/fylo-landing-page-with-two-column-layout)
-- Live Site URL: [GitHub Pages Live Site](darkphoenixninja92.github.io/fylo-landing-page-with-two-column-layout)
+- Live Site URL: [GitHub Pages Live Site](https://darkphoenixninja92.github.io/fylo-landing-page-with-two-column-layout/)
 
 ### Built with
 
