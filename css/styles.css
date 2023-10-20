@@ -243,6 +243,7 @@ form input {
     }
     .nav-itm {
         margin-right: 3em;
+        width: max-content;
     }
 
     .nav-list {
@@ -437,5 +438,12 @@ form input {
         position: relative;
         right: 6.5em;
         bottom: 5.5em;
+    }
+
+    svg {
+        z-index: 5000;
+        position: absolute;
+        bottom: 0;
+        fill: #fff;
     }
 }
